@@ -88,13 +88,5 @@ Test: 2,000 samples
 | “That movie scared me a lot!” | Fear              |
 
 
-Emotion-Detection/
-│
-├── emotion_model_saved/       # Fine-tuned model
-├── gradio_app.ipynb           # Gradio interface notebook
-├── fine_tuning.ipynb          # Model training notebook
-├── report.pdf                 # Written project report
-├── README.md                  # This file
-└── requirements.txt           # Python dependencies
 
 
