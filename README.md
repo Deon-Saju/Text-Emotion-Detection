@@ -91,5 +91,6 @@ Test: 2,000 samples
 
 ### Interface
 A interactive was created using Gradio.
-<img width="1907" height="837" alt="image" src="https://github.com/user-attachments/assets/d99e1c0c-1e12-4b39-91e4-523f69da597f" />
+<img width="1910" height="862" alt="image" src="https://github.com/user-attachments/assets/419a3ae1-eb51-4f21-a1b5-7e4c546fc8bc" />
+
 
