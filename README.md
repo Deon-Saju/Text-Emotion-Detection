@@ -164,7 +164,9 @@ To reproduce the results:
 - [Gradio](https://www.gradio.app/)
 
 
+## 👨‍🎓 Author
+Academic Project: M2 Deep Learning with Python Project
+Date: November 2025
 
-
-
-
+## 📜 License
+This project is for academic purposes. 
