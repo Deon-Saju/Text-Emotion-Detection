@@ -89,10 +89,6 @@ Test: 2,000 samples
 
 
 
-### Interface
-A interactive was created using Gradio.
-<img width="1910" height="862" alt="image" src="https://github.com/user-attachments/assets/419a3ae1-eb51-4f21-a1b5-7e4c546fc8bc" />
-
 ### Quick Start
 1. Clone the repository
    ```
@@ -120,13 +116,21 @@ A interactive was created using Gradio.
 The fine-tuned model is saved in Google Drive: https://drive.google.com/drive/folders/1UcSYntDESf5sG_xwHlaXGBXeb8rNgvIx?usp=drive_link
 
 `/content/drive/MyDrive/emotion_model_saved`
-The folder usually contains 
+
+##### The folder usually contains 
+
 model.safetensors
+
 config.json
+
 special_tokens_map.json
+
 tokenizer_config.json
+
 tokenizer.json
+
 training_args.bin
+
 vocab.txt
 
 
@@ -134,5 +138,25 @@ To run the app:
 1. Mount Google Drive in your Colab session.
 2. Make sure the folder `emotion_model_saved` exists in your Drive.
 3. Run `gradio_app.py` — it’ll automatically load from Drive.
+
+
+### Interface
+A interactive was created using Gradio.
+<img width="1910" height="862" alt="image" src="https://github.com/user-attachments/assets/419a3ae1-eb51-4f21-a1b5-7e4c546fc8bc" />
+
+
+### 🧩 Reproducibility
+
+To reproduce the results:
+1. Clone this repository.
+2. Open `fine_tuning.py` in Google Colab.
+3. Run all cells to fine-tune the model and save it.
+4. Open `gradio_app.py` to launch the web interface.
+5. Test your model with any text!
+
+
+
+
+
 
 
