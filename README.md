@@ -1,11 +1,11 @@
 #  “Emotion Detection from Tweets using Transformer Fine-Tuning — a project demonstrating NLP model adaptation and deployment with Gradio.”
 
 
-### 📌 Overview
+## 📌 Overview
 The goal of this study is to identify human emotions in brief social media writings, such as tweets.  A Transformer-based model (BERT) is refined to categorize emotions including joy, sadness, love, rage, fear, and surprise using Natural Language Processing (NLP) approaches.
  The experiment shows how sentiment and emotion recognition problems may be effectively and consistently handled using contemporary deep learning systems.
 
-### 🎯 Objectives
+## 🎯 Objectives
 
 - Fine-tune has a pre-trained Transformer model on an open-source emotion dataset.
 
@@ -15,7 +15,7 @@ The goal of this study is to identify human emotions in brief social media writi
 
 - Provide an interactive demo using Gradio .
 
-### 🧩 Dataset
+## 🧩 Dataset
 
 Dataset: Emotion Dataset from Hugging Face ( dair-ai/emotion)
 
@@ -31,7 +31,7 @@ Validation: 2,000 samples
 Test: 2,000 samples
 
 
-### ⚙️ Methodology
+## ⚙️ Methodology
 1. Approach
 
 - Type: Supervised Learning
@@ -73,7 +73,7 @@ Test: 2,000 samples
 - Deployed with Gradio for live testing
 
 
-### 📊 Results
+## 📊 Results
 
 <img width="547" height="261" alt="image" src="https://github.com/user-attachments/assets/48f5a083-4daf-4b8c-a655-1645f38e3fdf" />
 
@@ -90,7 +90,7 @@ Test: 2,000 samples
 
 
 
-### Quick Start
+## Quick Start
 1. Clone the repository
    ```
    git clone https://github.com/yourusername/emotion-detection.git
@@ -113,26 +113,20 @@ Test: 2,000 samples
    ```
    
 
-### 🔗 Model Access
+## 🔗 Model Access
 The fine-tuned model is saved in Google Drive: https://drive.google.com/drive/folders/1UcSYntDESf5sG_xwHlaXGBXeb8rNgvIx?usp=drive_link
 
 `/content/drive/MyDrive/emotion_model_saved`
 
-##### The folder usually contains 
+### The folder usually contains 
 
-model.safetensors
-
-config.json
-
-special_tokens_map.json
-
-tokenizer_config.json
-
-tokenizer.json
-
-training_args.bin
-
-vocab.txt
+- model.safetensors
+- config.json
+- special_tokens_map.json
+- tokenizer_config.json
+- tokenizer.json
+- training_args.bin
+- vocab.txt
 
 
 To run the app:
@@ -141,12 +135,12 @@ To run the app:
 3. Run `gradio_app.py` — it’ll automatically load from Drive.
 
 
-### Interface
+## Interface
 A interactive was created using Gradio.
 <img width="1910" height="862" alt="image" src="https://github.com/user-attachments/assets/419a3ae1-eb51-4f21-a1b5-7e4c546fc8bc" />
 
 
-### 🧩 Reproducibility
+## 🧩 Reproducibility
 
 To reproduce the results:
 1. Clone this repository.
@@ -156,7 +150,7 @@ To reproduce the results:
 5. Test your model with any text!
 
 
-### Future Work
+## Future Work
 - Fine-tune with larger emotion datasets.
 - Add multilingual emotion support (French, Spanish, etc.).
 - Deploy the app with Streamlit or Hugging Face Spaces.
