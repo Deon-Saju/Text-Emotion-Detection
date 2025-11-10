@@ -1,4 +1,5 @@
-# Text-Emotion-Detection
+#  “Emotion Detection from Tweets using Transformer Fine-Tuning — a project demonstrating NLP model adaptation and deployment with Gradio.”
+
 
 ### 📌 Overview
 The goal of this study is to identify human emotions in brief social media writings, such as tweets.  A Transformer-based model (BERT) is refined to categorize emotions including joy, sadness, love, rage, fear, and surprise using Natural Language Processing (NLP) approaches.
@@ -154,6 +155,19 @@ To reproduce the results:
 4. Open `gradio_app.py` to launch the web interface.
 5. Test your model with any text!
 
+
+### Future Work
+- Fine-tune with larger emotion datasets.
+- Add multilingual emotion support (French, Spanish, etc.).
+- Deploy the app with Streamlit or Hugging Face Spaces.
+- Integrate emoji-based sentiment detection.
+
+
+## 📚 References
+
+- [Hugging Face Datasets: Emotion](https://huggingface.co/datasets/dair-ai/emotion)
+- [Transformers Documentation](https://huggingface.co/docs/transformers)
+- [Gradio](https://www.gradio.app/)
 
 
 
