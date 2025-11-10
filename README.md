@@ -147,7 +147,7 @@ To reproduce the results:
 2. Open `fine_tuning.py` in Google Colab.
 3. Run all cells to fine-tune the model and save it.
 4. Open `gradio_app.py` to launch the web interface.
-5. Test your model with any text!
+5. Test the model with any text.
 
 
 ## Future Work
