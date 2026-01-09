@@ -166,7 +166,7 @@ To reproduce the results:
 
 ## 👨‍🎓 Author
 Academic Project: M2 Deep Learning with Python Project
-Date: November 2025
+Date: November 2025.
 
 ## 📜 License
 This project is for academic purposes. 
